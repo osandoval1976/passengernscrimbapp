@@ -9,7 +9,8 @@ function increment() {
 }
 
 function save() {
-    
+    counStr = count + " - "
+    saveEl.textContent += counStr
     countEl.textContent =0
     count = 0
 }
