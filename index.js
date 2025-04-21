@@ -5,12 +5,12 @@ let countEl = document.getElementById("count-el")
 function increment() {
     count += 1
     countEl.textContent = count
-   countStr= saveEl.textContent = "Previous entries: "+ count+ " - "
+  
 }
 
 function save() {
-    let counStr = count + " - "
-    saveEl.textContent += counStr
+    let countStr = count + " - "
+    saveEl.textContent += countStr
     countEl.textContent =0
     count = 0
 }
